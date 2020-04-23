@@ -41,7 +41,7 @@ export default class LoginContainer extends Component {
     const userObj = userDAO.authenticate(email, password);
 
     if (userObj === null) {
-      alert("Wrong email or password");
+      alert("Wrong email or password, be lest idiot and check properly");
     } else {
       this.props.history.push("/dashboard");
     }

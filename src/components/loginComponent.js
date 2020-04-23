@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-
-//router
 import {
   BrowserRouter as Router,
   Route,
@@ -23,7 +21,8 @@ export default function LoginComponent(props) {
     onEmailChange,
     onPasswordChange,
     onClick,
-    onBackClick} = props;
+    onBackClick
+  } = props;
 
   return (
     <Container>
@@ -51,9 +50,8 @@ export default function LoginComponent(props) {
           variant="primary"
           type="submit"
           onClick={event => onClick(event)}
-        >
-          Submit
-        </Button>{" "}
+        >Lets Do It</Button>{" "}
+        
         <Button
           variant="primary"
           type="submit"
@@ -65,3 +63,5 @@ export default function LoginComponent(props) {
     </Container>
   );
 }
+
+//lkjjsdfjhsdjsdfjdljsljjdsfjlksdjfofdljkdhalkahjasliu;lfdjaoqiukkhasdlfkjd;lkjfsldkjfjklsd;ldf
