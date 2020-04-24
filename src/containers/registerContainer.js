@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import RegisterComponent from "../components/registerComponent";
+import RegisterComponent from "../components/main/registerComponent";
 import UserDAO from "../models/userDAO";
 
 const MISMATCH_PASSWORD_ERROR = "passwordDoNotMatch";

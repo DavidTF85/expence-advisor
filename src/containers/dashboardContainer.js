@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import DashboardComponent from "../components/dashboardComponent";
+import DashboardComponent from "../components/main/dashboardComponent";
 
 export default class DashboardContainer extends Component {
   constructor(props) {

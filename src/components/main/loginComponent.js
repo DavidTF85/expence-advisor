@@ -50,8 +50,9 @@ export default function LoginComponent(props) {
           variant="primary"
           type="submit"
           onClick={event => onClick(event)}
-        >Lets Do It</Button>{" "}
-        
+        >
+          Lets Do It
+        </Button>{" "}
         <Button
           variant="primary"
           type="submit"

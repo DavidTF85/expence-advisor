@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import LoginComponent from "../components/loginComponent";
+import LoginComponent from "../components/main/loginComponent";
 import UserDAO from "../models/userDAO";
 
 export default class LoginContainer extends Component {
