@@ -7,6 +7,7 @@ import LoginContainer from "./loginContainer";
 import DashboardContainer from "./dashboardContainer";
 import IncomeListContainer from "./incomeListContainer";
 import CreateIncomeContainer from "./createIncomeContainer";
+//import IncomeUpdateContainer from "./incomeUpdateContainer";
 
 //router
 import {
@@ -33,6 +34,7 @@ class AppContainer extends Component {
               exact
               component={CreateIncomeContainer}
             />
+            
           </Switch>
         </div>
       </Router>

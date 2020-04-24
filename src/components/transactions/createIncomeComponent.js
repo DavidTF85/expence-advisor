@@ -23,7 +23,7 @@ export default function CreateIncomeComponent(props) {
       />
 
       <input
-        type="number"
+        type="date"
         value={amount}
         onChange={onAmountChange}
         placeholder="date"

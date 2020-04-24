@@ -6,6 +6,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
+import Carousel from "react-bootstrap/Carousel";
 
 export default function MainPageComponent(props) {
   return (
@@ -42,7 +43,9 @@ export default function MainPageComponent(props) {
         </div>
       </Container>
 
-      {/* <Carousel>
+      <div>
+
+      <Carousel>
           <Carousel.Item>
             <img
               className="d-block w-100"
@@ -78,7 +81,8 @@ export default function MainPageComponent(props) {
               <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
             </Carousel.Caption>
           </Carousel.Item>
-          </Carousel> */}
+          </Carousel>
+          </div>
     </div>
   );
 }

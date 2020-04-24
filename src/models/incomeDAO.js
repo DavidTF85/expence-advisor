@@ -1,3 +1,5 @@
+//code got by Bart Mika of BCI innovationlabs
+//check it in:https://github.com/bci-innovation-labs/treepal-frontend
 import slugify from "slugify"; // Note: npm install slugify
 import shortid from "shortid";
 
