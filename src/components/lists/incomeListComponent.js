@@ -18,8 +18,8 @@ function detailsFormatter(cell, row) {
       <a href={`/Income-Update/${row.slug}`} class="btn btn-primary">
         Edite
       </a>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href={`/tree/${row.slug}`} class="btn btn-primary">
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href={`/Delete/${row.slug}`} class="btn btn-primary">
         Delete
       </a>
     </span>

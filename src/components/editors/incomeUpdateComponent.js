@@ -1,3 +1,5 @@
+//code got by Bart Mika of BCI innovationlabs
+//check it in:https://github.com/bci-innovation-labs/treepal-frontend
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
@@ -14,7 +16,7 @@ export default function IncomeUpdateComponent(props) {
   } = props;
   return (
     <div>
-      <h1>Update Tree</h1>
+      <h1>Update Transaction</h1>
 
       <input
         type="text"

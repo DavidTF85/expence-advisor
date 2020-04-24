@@ -21,16 +21,43 @@ export default function MainPageComponent(props) {
           <br />
           <br />
         </Row>
-        <Row>
-          <Col />
-          <Col md="auto" />
-          <Col />
-        </Row>
-        <br />
-        <br />
+        <Carousel>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src="https://quotefancy.com/media/wallpaper/3840x2160/1736628-Robert-T-Kiyosaki-Quote-It-s-more-important-to-grow-your-income.jpg"
+              alt="First slide"
+            />
+            <Carousel.Caption>
+              <h3 />
+              <p />
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src="https://s.marketwatch.com/public/resources/images/MW-HU307_richda_NS_20191030104101.jpg"
+              alt="Third slide"
+            />
 
-        <br />
-        <br />
+            <Carousel.Caption>
+              <h3 />
+              <p />
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ-1p4jr1b5PVJQz_EylL716MUaYvf16ZtehkpGVh5FrW3qaPkE&usqp=CAU"
+              alt="Third slide"
+            />
+
+            <Carousel.Caption>
+              <h3 />
+              <p />
+            </Carousel.Caption>
+          </Carousel.Item>
+        </Carousel>
         <br />
         <br />
         <div className="mb-2">
@@ -43,46 +70,7 @@ export default function MainPageComponent(props) {
         </div>
       </Container>
 
-      <div>
-
-      <Carousel>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="holder.js/800x400?text=First slide&bg=373940"
-              alt="First slide"
-            />
-            <Carousel.Caption>
-              <h3>First slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="holder.js/800x400?text=Second slide&bg=282c34"
-              alt="Third slide"
-            />
-
-            <Carousel.Caption>
-              <h3>Second slide label</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="holder.js/800x400?text=Third slide&bg=20232a"
-              alt="Third slide"
-            />
-
-            <Carousel.Caption>
-              <h3>Third slide label</h3>
-              <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-            </Carousel.Caption>
-          </Carousel.Item>
-          </Carousel>
-          </div>
+      <div />
     </div>
   );
 }
